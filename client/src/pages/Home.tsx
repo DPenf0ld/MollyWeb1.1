@@ -545,7 +545,7 @@ function ContactSection() {
                 GET IN TOUCH
               </h2>
               <p className="font-['Lato'] text-white/60 text-lg mt-4 font-light">
-                For bookings, press enquiries, or just to say hello.
+                For bookings or just to say hello.
               </p>
             </motion.div>
 

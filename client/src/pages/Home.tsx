@@ -77,7 +77,7 @@ const socials = [
   { name: 'Spotify', href: 'https://open.spotify.com/artist/1M53ltFUdI9gkD4zTvTTB6?si=7aaCQSVeTvmo36_zJ8sDfA' },
   { name: 'Apple Music', href: 'https://music.apple.com/gb/artist/molly-brown/1764474988' },
   { name: 'Instagram', href: 'https://www.instagram.com/_mollyxbrown_' },
-  { name: 'TikTok', href: 'https://www.tiktok.com/@mollyxbrown03' },
+  { name: 'TikTok', href: 'https://www.tiktok.com/@mollybrownxmusic' },
   { name: 'YouTube', href: 'https://www.youtube.com/channel/UCXcPrLh7qL5eFeZ7-kGKa4A' },
   { name: 'Facebook', href: 'https://www.facebook.com/mollyxbrown03' },
 ];

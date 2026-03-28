@@ -13,7 +13,7 @@ import { ZoomParallax } from '@/components/ui/zoom-parallax';
 // ── CDN image URLs ────────────────────────────────────────────────────────────
 const CDN = {
     outside: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663479390629/Tf68qkU7AheU84RWxtFEQ9/Outside_4b4002e1.JPG',
-    gamePlan: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663479390629/Tf68qkU7AheU84RWxtFEQ9/GamePlan_4631accf.jpg',
+    gamePlan: '/game_plan.jpg',
     foreverGuessing: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663479390629/Tf68qkU7AheU84RWxtFEQ9/ForeverGuessing_f9934a0f.jpg',
     whatYouCouldnt: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663479390629/Tf68qkU7AheU84RWxtFEQ9/WhatYouCouldntGiveToMe_84630daf.jpg',
     moreObsessed: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663479390629/Tf68qkU7AheU84RWxtFEQ9/MoreObsessed_c5f6d1d1.jpg',
@@ -31,12 +31,14 @@ const parallaxImages = [
 // ── Releases data ─────────────────────────────────────────────────────────────
 const releases = [
     {
-        title: 'Game Plan',
-        type: 'Single',
-        year: '2025',
-        cover: CDN.gamePlan,
+        title: 'Forever Guessing',
+        type: 'EP',
+        year: '2024',
+        cover: CDN.foreverGuessing,
         description:
-            "My third single 'Game Plan' was inspired by and written for my friend. I wanted to create a song that was hers and that she could scream to in the car! This was such a fun track to create from writing the sarcastic lyrics to the overall production. I have been very grateful to have my track selected to play on Future Hits, Kennet Radio and BBC Introducing. I was also so pleased to hear 'Game Plan' made the A-list on Future Hits Radio!",
+            "I released my first single 'Gone Away' in September 2024 which was followed by the release of my EP 'Forever Guessing' in October 2024. The four tracks represent different stages and emotions felt during heartbreak. I hope my music resonates with my listeners and echoes important messages and emotions. Working with my producer Martin Pawley, I thoroughly enjoyed the creative process. My fourth track 'Switch Off' featured on BBC Introducing.",
+        production: 'Martin Pawley',
+        photography: 'Mattie Thompson',
         spotify: 'https://open.spotify.com/artist/1M53ltFUdI9gkD4zTvTTB6?si=7aaCQSVeTvmo36_zJ8sDfA',
         apple: 'https://music.apple.com/gb/artist/molly-brown/1764474988',
     },
@@ -46,27 +48,32 @@ const releases = [
         year: '2025',
         cover: CDN.whatYouCouldnt,
         description:
-            "I released my second single 'What You Couldn't Give To Me' in May 2025. I wrote this track after a negative experience and desperately wanted to experiment with these lyrics to create some sarcasm. The overall message is that feeling when you realise you never really know someone which I'm sure many of my listeners can relate to. My track climbed to the Top 10 on the Future Hits Radio Top 40 — a massive achievement.",
-        spotify: 'https://open.spotify.com/artist/1M53ltFUdI9gkD4zTvTTB6?si=7aaCQSVeTvmo36_zJ8sDfA',
+            "I released my second single 'What You Couldn't Give To Me' in May 2025. I wrote this track after a negative experience and desperately wanted to experiment with these lyrics to create some sarcasm. This song captures that feeling of realising you never really knew someone, which I'm sure many listeners can relate to. My track climbed to the Top 10 on Future Hits Radio Top 40 and got a spin on BBC Introducing.",
+        production: 'Martin Pawley',
+        photography: 'Ella Brown',
         apple: 'https://music.apple.com/gb/artist/molly-brown/1764474988',
     },
     {
-        title: 'Forever Guessing',
-        type: 'EP',
-        year: '2024',
-        cover: CDN.foreverGuessing,
+        title: 'Game Plan',
+        type: 'Single',
+        year: '2025',
+        cover: CDN.gamePlan,
         description:
-            "I released my first single 'Gone Away' in September 2024 which was followed by the release of my EP 'Forever Guessing' in October 2024. The four tracks represent different stages and emotions felt during heartbreak. I hope my music resonates with my listeners and echoes important messages and emotions. Working with my producer Martin Pawley, I thoroughly enjoyed the creative process. My fourth track 'Switch Off' featured on BBC Introducing.",
+            "My third single 'Game Plan' was inspired by and written for my friend. I wanted to create a song that was hers and that she could scream to in the car! This was such a fun track to create from writing the sarcastic lyrics to the overall production. I have been very grateful to have my track selected to play on Future Hits, Kennet Radio and BBC Introducing. I was also so pleased to hear 'Game Plan' made the A-list on Future Hits Radio!",
+        production: 'Martin Pawley',
+        photography: 'Ella Brown',
         spotify: 'https://open.spotify.com/artist/1M53ltFUdI9gkD4zTvTTB6?si=7aaCQSVeTvmo36_zJ8sDfA',
         apple: 'https://music.apple.com/gb/artist/molly-brown/1764474988',
     },
     {
         title: 'More Obsessed',
         type: 'Single',
-        year: '2025',
+        year: '2026',
         cover: CDN.moreObsessed,
         description:
-            "My latest single 'More Obsessed' is out now. Looking forward to you all hearing it — this track pushes into new sonic territory while staying true to the emotional honesty that defines my songwriting. Stream it now on all platforms.",
+            "My first release of 2026 'More Obsessed' encaptures one of the hardest experiences I've been through in a sarcastic light. I worked with Brandon from Turntable Media to truly bring this track to life and I enjoyed creating my DIY Newspaper for the photoshoot with Shaun. This song, to me, defines a true testament to resilience. I am proud to be releasing this track and want to send a message to listeners that you should never give up on what you love doing because someone else is trying to bring you down. I was pleased for this song to have a spin on BBC Introducing, Kennet Radio and Radio Wigwam. By releasing this song, Christopher Lane, radio presenter of On Air Acoustic, reached out and offered me an exciting opportunity to join him on the show.",
+        production: 'Turntable Media',
+        photography: 'Turntable Media',
         spotify: 'https://open.spotify.com/artist/1M53ltFUdI9gkD4zTvTTB6?si=7aaCQSVeTvmo36_zJ8sDfA',
         apple: 'https://music.apple.com/gb/artist/molly-brown/1764474988',
     },
@@ -125,7 +132,7 @@ function Nav() {
         return () => window.removeEventListener('scroll', handler);
     }, []);
 
-    const navLinks = ['About', 'Releases', 'Gallery', 'Contact'];
+    const navLinks = ['About', 'Releases', 'Contact'];
 
     const scrollTo = (id: string) => {
         setMenuOpen(false);
@@ -260,7 +267,7 @@ function AboutSection() {
                         <motion.p variants={fadeUp} className="font-['Lato'] text-white/70 text-lg leading-relaxed mb-8 font-light">
                             Whilst at University, Molly thoroughly enjoyed working and performing with different bands on lead
                             vocals. Songwriting has always been an outlet for Molly. From writing and recording demos in her
-                            bedroom, Molly has since worked with producer Martin Pawley, who has brought her ideas to life.
+                            bedroom, Molly has since worked with different producers who have helped bring her ideas to life.
                         </motion.p>
                         <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
                             {['BBC Introducing', 'Future Hits Radio', 'Kennet Radio'].map((tag) => (
@@ -374,9 +381,29 @@ function ReleasesSection() {
                             >
                                 {releases[active].title}
                             </h3>
-                            <p className="font-['Lato'] text-white/65 text-base leading-relaxed mb-10 font-light">
+                            <p className="font-['Lato'] text-white/65 text-base leading-relaxed mb-8 font-light">
                                 {releases[active].description}
                             </p>
+
+                            {/* Credits boxes */}
+                            <div className="grid grid-cols-2 gap-4 mb-10">
+                                {[
+                                    { label: 'Production', value: releases[active].production },
+                                    { label: 'Photography', value: releases[active].photography },
+                                ].map(({ label, value }) => (
+                                    <div
+                                        key={label}
+                                        className="border border-white/10 px-5 py-4"
+                                    >
+                                        <p className="font-['Lato'] text-[10px] tracking-[0.25em] uppercase text-[#c0392b] mb-2">
+                                            {label}
+                                        </p>
+                                        <p className="font-['Lato'] text-sm text-white/70 font-light">
+                                            {value || '—'}
+                                        </p>
+                                    </div>
+                                ))}
+                            </div>
 
                             {/* Stream buttons */}
                             <div className="flex flex-wrap gap-4">
@@ -434,58 +461,6 @@ function ReleasesSection() {
     );
 }
 
-// ── Gallery section ───────────────────────────────────────────────────────────
-function GallerySection() {
-    const galleryImages = [
-        { src: CDN.outside, alt: 'Molly Brown outdoor shoot', span: 'md:col-span-2 md:row-span-2' },
-        { src: CDN.gamePlan, alt: 'Game Plan artwork', span: '' },
-        { src: CDN.moreObsessed, alt: 'More Obsessed artwork', span: '' },
-        { src: CDN.foreverGuessing, alt: 'Forever Guessing EP', span: '' },
-        { src: CDN.whatYouCouldnt, alt: "What You Couldn't Give To Me", span: '' },
-    ];
-
-    return (
-        <section id="gallery" className="relative py-32 bg-[#0d0d0d] overflow-hidden">
-            <span className="section-label">GALLERY</span>
-            <div className="container relative z-10">
-                <AnimSection>
-                    <motion.div variants={slideLeft} className="mb-16">
-                        <span className="accent-line mb-6" />
-                        <h2
-                            className="font-['Bebas_Neue'] text-white"
-                            style={{ fontSize: 'clamp(3rem, 6vw, 5rem)', letterSpacing: '0.05em' }}
-                        >
-                            GALLERY
-                        </h2>
-                    </motion.div>
-                </AnimSection>
-
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-3">
-                    {galleryImages.map((img, i) => (
-                        <motion.div
-                            key={i}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true, margin: '-50px' }}
-                            transition={{ duration: 0.6, delay: i * 0.1, ease: 'easeOut' }}
-                            whileHover={{ scale: 1.02 }}
-                            className={`relative overflow-hidden ${img.span} group`}
-                        >
-                            <div style={{ aspectRatio: '1/1' }}>
-                                <img
-                                    src={img.src}
-                                    alt={img.alt}
-                                    className="w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-700"
-                                />
-                            </div>
-                            <div className="absolute inset-0 bg-[#c0392b]/0 group-hover:bg-[#c0392b]/10 transition-all duration-500" />
-                        </motion.div>
-                    ))}
-                </div>
-            </div>
-        </section>
-    );
-}
 
 // ── Press / Features strip ────────────────────────────────────────────────────
 function PressStrip() {
@@ -644,9 +619,6 @@ export default function Home() {
 
             {/* Releases */}
             <ReleasesSection />
-
-            {/* Gallery */}
-            <GallerySection />
 
             {/* Contact */}
             <ContactSection />

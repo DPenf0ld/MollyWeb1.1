@@ -2,14 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\client",
-    "\\client\\public",
-    "\\client\\public\\__manus__",
-    "\\client\\src",
-    "\\client\\src\\components",
-    "\\client\\src\\contexts",
-    "\\client\\src\\hooks",
-    "\\patches",
-    "\\server"
+    "\\client\\public"
   ],
   "PreviewInSolutionExplorer": false
 }

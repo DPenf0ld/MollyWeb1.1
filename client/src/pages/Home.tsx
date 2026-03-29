@@ -270,7 +270,7 @@ function AboutSection() {
                             bedroom, Molly has since worked with different producers who have helped bring her ideas to life.
                         </motion.p>
                         <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
-                            {['BBC Introducing', 'Future Hits Radio', 'Kennet Radio'].map((tag) => (
+                            {['BBC Introducing', 'Future Hits Radio', 'Kennet Radio', 'Radio Wigwam', 'On Air Acoustic'].map((tag) => (
                                 <span
                                     key={tag}
                                     className="font-['Lato'] text-xs tracking-[0.2em] uppercase text-[#c0392b] border border-[#c0392b]/30 px-4 py-2"
@@ -482,6 +482,8 @@ function PressStrip() {
         'Kennet Radio',
         '·',
         'On Air Acoustic',
+        '·',
+        'Radio Wigwam',
         '·',
     ];
 
